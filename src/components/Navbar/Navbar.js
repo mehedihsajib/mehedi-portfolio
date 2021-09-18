@@ -1,8 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { AiFillGithub, AiFillLinkedin, AiOutlineAlignLeft } from 'react-icons/ai';
 import { MdClose } from 'react-icons/md';
 import { NavLink } from 'react-router-dom';
-import { useState } from 'react/cjs/react.development';
 import styled from 'styled-components';
 import logoIcon from '../../assets/images/logo-icon.png';
 import { Container } from '../../styles/CommonElements';

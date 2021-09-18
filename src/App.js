@@ -15,8 +15,8 @@ export default function App() {
     <>
       <Router>
         <ThemeProvider theme={Theme}>
-          <Navbar />
           <SmoothScrollbar>
+            <Navbar />
             <Switch>
               <Route path="/about">
                 <About />

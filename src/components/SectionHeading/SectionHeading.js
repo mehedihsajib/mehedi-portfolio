@@ -1,14 +1,10 @@
 import React from 'react';
 
-const SectionHeading = ({ topHeading, mainHeading }) => {
+const SectionHeading = ({ topHeading = 'Top Heading', mainHeading = 'Main Heading' }) => {
   return (
     <>
-      <h4 className="small-heading" topHeading={topHeading}>
-        {topHeading}
-      </h4>
-      <h2 className="heading-2" mainHeading={mainHeading}>
-        {mainHeading}
-      </h2>
+      <h4 className="small-heading">{topHeading}</h4>
+      <h2 className="heading-2">{mainHeading}</h2>
     </>
   );
 };
