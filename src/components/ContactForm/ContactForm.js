@@ -57,12 +57,14 @@ const ContactForm = () => {
   const [message, setMessage] = useState('');
   return (
     <ContactFormWrapper>
-      <form action="#">
+      <form action="https://formsubmit.co/sajibmehedi7@gmail.com" method="POST">
         <div className="form-group">
           <label htmlFor="name">
             Full Name
             <input
               type="text"
+              name="name"
+              required
               placeholder="John Doe"
               value={name}
               onChange={(e) => setName(e.target.value)}
@@ -74,6 +76,8 @@ const ContactForm = () => {
             Email
             <input
               type="text"
+              name="email"
+              required
               placeholder="example@gmail.com"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -85,6 +89,8 @@ const ContactForm = () => {
             Message
             <textarea
               type="text"
+              name="message"
+              required
               placeholder="Hey there!"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
