@@ -26,6 +26,11 @@ html {
     background-color: var(--color-dark-light);
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+
   :root{
     --dark-bg: #262626;
     --gray-1: #BCB4B4;
@@ -74,6 +79,7 @@ html {
 
     --soft-shadow-1: 6px 6px 12px #16191c, -6px -6px 12px #20252a;
     --soft-shadow-2: 10px 10px 20px #181b1f, -10px -10px 20px #1e2327;
+    --soft-shadow-3: inset 5px 5px 5px #171a1d, inset -5px -5px 5px #1f2429;
    
   }
  
@@ -108,18 +114,17 @@ html {
   [data-scrollbar] {
     height: 100vh;
     overflow: hidden;
-    background-color: var(--gray-1);
+    z-index: 11;
     .scroll-content {
-      background-color: var(--dark-bg);
+      background-color: var(--color-dark-light);
     }
     .scrollbar-track.scrollbar-track-y {
-      background: var(--deep-dark);
+      background: var(--color-dark-light);
       .scrollbar-thumb-y {
-        background: var(--gray-1);
+         background: var(--color-gold);
       }
     }
   }
-
 
   /* =========== TYPOGRAPHY ============ */
   .heading-1 {

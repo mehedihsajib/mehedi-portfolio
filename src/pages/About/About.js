@@ -7,7 +7,6 @@ import { Container } from '../../styles/CommonElements';
 
 // Styles
 const AboutWrapper = styled.div`
-  padding-top: 10rem;
   .info-items {
     padding: 3rem 0rem;
 

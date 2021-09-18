@@ -14,8 +14,10 @@ const NavbarWrapper = styled.nav`
   box-shadow: var(--box-shadow-1);
   backdrop-filter: blur(15px);
   padding: 1rem 0;
-  position: fixed;
-  z-index: 9999;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 `;
 
 const NavbarContent = styled.div`
@@ -116,7 +118,6 @@ const RightIcons = styled.div`
     font-size: 2rem;
     width: 4rem;
     height: 4rem;
-    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;

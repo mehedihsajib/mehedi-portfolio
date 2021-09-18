@@ -17,7 +17,7 @@ const HeroContent = styled.div`
   padding: 5rem 0;
 
   @media (max-width: 1195px) {
-    padding-top: 20rem;
+    padding-top: 10rem;
     justify-content: center;
   }
 `;
@@ -80,8 +80,9 @@ const HeroLeftContent = styled.div`
 `;
 
 const HeroRightContent = styled.div`
-  margin-top: 20rem;
+  margin-top: 15rem;
   position: relative;
+  bottom: 0;
   height: 57rem;
   width: 52rem;
   border-radius: 10px;
@@ -96,11 +97,19 @@ const HeroRightContent = styled.div`
   }
 
   @media (max-width: 500px) {
-    margin-top: 20rem;
+    margin-top: 23rem;
   }
 
-  @media (max-width: 390px) {
+  @media (max-width: 400px) {
+    margin-top: 15rem;
+  }
+
+  @media (max-width: 370px) {
     margin-top: 10rem;
+  }
+
+  @media (max-width: 340px) {
+    margin-top: 5rem;
   }
 
   .img-wrapper {
