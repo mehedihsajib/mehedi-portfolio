@@ -9,12 +9,12 @@ const ContactFormWrapper = styled.div`
   }
 
   label {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   input,
   textarea {
-    min-width: 100%;
+    width: 100%;
     font-size: 1.8rem;
     padding: 2rem;
     margin-top: 1.5rem;

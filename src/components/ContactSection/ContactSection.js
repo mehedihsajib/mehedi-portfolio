@@ -43,6 +43,9 @@ const ContactSectionWrapper = styled.section`
     @media (max-width: 992px) {
       width: 100%;
     }
+    @media (max-width: 400px) {
+      padding: 2rem;
+    }
   }
 
   .contact-img-wrapper {
@@ -69,6 +72,10 @@ const ContactSectionWrapper = styled.section`
     @media (max-width: 992px) {
       width: 100%;
     }
+
+    @media (max-width: 400px) {
+      padding: 2rem;
+    }
   }
 
   .social-links {
@@ -93,6 +100,7 @@ const ContactSection = () => {
               <img className="contact-img" src={contactImg} alt="illustration" />
             </div>
             <ContactItem icon={<FaPhoneAlt />} text="+8801777 090833" />
+
             <ContactItem icon={<FaEnvelopeOpen />} text="sajibmehedi7@gmail.com" />
             <ContactItem icon={<FaMapMarkerAlt />} text="Tangail, Dhaka, Bangladesh" />
             <div className="social-links">

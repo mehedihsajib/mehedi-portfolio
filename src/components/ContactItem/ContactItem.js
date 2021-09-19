@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 // Styles
 const ContactItemWrapper = styled.div`
+  width: 100%;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -12,11 +13,17 @@ const ContactItemWrapper = styled.div`
   background: #1b1f23;
   box-shadow: var(--soft-shadow-1);
 
+  @media (max-width: 400px) {
+    flex-direction: column;
+    justify-content: center;
+  }
+
   &:not(:last-child) {
     margin-bottom: 3rem;
   }
 
   .icon {
+    min-width: 2rem;
     font-size: 2rem;
     margin-right: 1rem;
   }
@@ -25,7 +32,7 @@ const ContactItemWrapper = styled.div`
 const ContactItem = ({ text = 'test info', icon = <FaMapMarkerAlt /> }) => {
   return (
     <ContactItemWrapper>
-      <span className="icon">{icon}</span>
+      <div className="icon">{icon}</div>
       <p className="body-text-3">{text}</p>
     </ContactItemWrapper>
   );

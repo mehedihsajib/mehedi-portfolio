@@ -15,7 +15,7 @@ const ServicesContent = styled.div`
 `;
 
 const ServicesCards = styled.div`
-  margin-top: var(--mt-lg);
+  margin-top: 5.5rem;
   display: flex;
   @media (max-width: 768px) {
     flex-direction: column;

@@ -18,6 +18,9 @@ const AboutInfoWrapper = styled.div`
 
   h3 {
     width: 20rem;
+    @media (max-width: 400px) {
+      margin-bottom: 1rem;
+    }
   }
 
   .single-items {
@@ -35,6 +38,10 @@ const AboutInfoWrapper = styled.div`
     box-shadow: var(--soft-shadow-1);
     display: flex;
     justify-content: flex-end;
+
+    @media (max-width: 400px) {
+      margin-bottom: 1rem;
+    }
   }
 `;
 

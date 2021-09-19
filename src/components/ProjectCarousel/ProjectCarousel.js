@@ -20,7 +20,7 @@ const ProjectCarouselWrapper = styled.section`
 
   .swiper-container {
     padding-top: 8rem;
-    margin-top: 4rem;
+    margin-top: 5.5rem;
     max-width: 100%;
     height: 100%;
   }

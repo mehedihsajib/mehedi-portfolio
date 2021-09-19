@@ -22,6 +22,10 @@ const CardWrapper = styled.div`
       height: 100%;
       border-radius: 10px;
     }
+
+    @media (max-width: 400px) {
+      height: 15rem;
+    }
   }
 
   .card-content {

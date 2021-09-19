@@ -11,10 +11,14 @@ const FooterWrapper = styled.footer`
 
   p {
     font-weight: bold;
+    font-size: 1.8rem;
+    @media (max-width: 400px) {
+      font-size: 1.4rem;
+    }
 
     .footer-icon {
       padding-top: 2rem;
-      font-weight: bold;
+
       &:first-child {
         svg {
           fill: red;
@@ -37,7 +41,7 @@ const Footer = () => {
   return (
     <FooterWrapper>
       <Container>
-        <p className="body-text-3">
+        <p>
           Made with &nbsp;
           <span className="footer-icon">
             <FaHeart />
