@@ -128,22 +128,57 @@ html {
 
   /* =========== TYPOGRAPHY ============ */
   .heading-1 {
-    font-size: clamp(35px, 5vw, 70px);
-    font-family: 'Montserrat Bold'
+    font-family: 'Montserrat Bold';
+    font-size: 7rem;
+
+    @media (max-width: 768px) {
+      font-size: 5rem;
+    }
+
+    @media (max-width: 575px) {
+      font-size: 3.5rem;
+    }
   
   }
 
   .heading-2 {
     font-size: clamp(35px, 5vw, 60px);
     font-family: 'Montserrat Bold';
+    font-size: 6rem;
+
+    @media (max-width: 768px) {
+      font-size: 4rem;
+    }
+
+    @media (max-width: 575px) {
+      font-size: 3rem;
+    }
   }
 
   .heading-3 {
     font-size: clamp(25px, 5vw, 35px);
+    font-size: 3.5rem;
+
+    @media (max-width: 768px) {
+      font-size: 2.8rem;
+    }
+
+    @media (max-width: 575px) {
+      font-size: 2.5rem;
+    }
   }
 
   .heading-4 {
     font-size: clamp(20px, 2vw, 30px);
+    font-size: 3rem;
+
+    @media (max-width: 768px) {
+      font-size: 2.5rem;
+    }
+
+    @media (max-width: 575px) {
+      font-size: 2.2rem;
+    }
   }
 
   .small-heading {

@@ -14,7 +14,7 @@ const CardWrapper = styled.div`
   box-shadow: var(--soft-shadow-1);
 
   .card-thumb {
-    height: 25rem;
+    height: 20rem;
     margin-bottom: 3rem;
 
     img {
@@ -31,6 +31,24 @@ const CardWrapper = styled.div`
 
     p {
       font-size: 1.6rem;
+    }
+  }
+
+  .tech-used {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+
+    li {
+      font-size: 1.4rem;
+      background-color: red;
+      padding: 5px 7px;
+      border-radius: 5px;
+      background: #1b1f23;
+      box-shadow: var(--soft-shadow-1);
+      color: var(--color-gold);
     }
   }
 
@@ -79,6 +97,7 @@ const ProjectItem = ({
   desc,
   thumb,
   alt,
+  techs = ['html', 'css', 'js', 'bootstrap'],
 }) => {
   return (
     <CardWrapper>
@@ -88,6 +107,11 @@ const ProjectItem = ({
       <div className="card-content">
         <h3 className="heading-4">{name}</h3>
         <p className="body-text-3">{desc}</p>
+        <ul className="tech-used">
+          {techs.map((tech, index) => (
+            <li key={index.id}>{tech}</li>
+          ))}
+        </ul>
         <div className="see-on">
           <a target={target} href={liveLink}>
             {liveLinkIcon}
