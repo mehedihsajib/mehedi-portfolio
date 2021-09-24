@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Container } from '../../styles/CommonElements';
 import Buttons from '../Buttons/Buttons';
+import LinkBtn from '../Buttons/LinkButton';
 import SectionHeading from '../SectionHeading/SectionHeading';
 import { aboutData } from './data';
 // Styles
@@ -58,6 +59,8 @@ const AboutLeftContent = styled.div`
 
 const AboutRightContent = styled.div`
   width: 40%;
+  display: flex;
+  align-items: center;
 
   @media (max-width: 991px) {
     width: 100%;
@@ -72,9 +75,14 @@ const AboutSection = () => {
         <AboutContent>
           <AboutLeftContent>
             <SectionHeading topHeading="A Little About Me" mainHeading="About" />
-            <p className="body-text-3">{aboutData.aboutText}</p>
+            <p className="body-text-3">{aboutData.aboutText1}</p>
+            <p className="body-text-3">{aboutData.aboutText2}</p>
             <div className="button-wrapper">
-              <Buttons primary btnLink="/projects" btnText="Get Resume " />
+              <LinkBtn
+                primary
+                btnLink="https://drive.google.com/file/d/18WZjUWLuxfE6P4a_RIZysOJHQVPc7RBg/view?usp=sharing"
+                btnText="Get Resume"
+              />
               <Buttons btnLink="/contact" btnText="Contact Me " />
             </div>
           </AboutLeftContent>

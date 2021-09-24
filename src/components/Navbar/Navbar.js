@@ -80,8 +80,12 @@ const LogoContent = styled.div`
 
   h3 {
     color: var(--color-gold);
-    font-size: clamp(1.8rem, 2.5vw, 2.2rem);
+    font-size: 2.2rem;
     text-transform: uppercase;
+
+    @media (max-width: 400px) {
+      font-size: 2rem;
+    }
   }
 `;
 

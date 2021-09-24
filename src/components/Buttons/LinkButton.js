@@ -1,8 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-const Button = styled.div`
+const LinkBtn = styled.div`
   .button {
     display: inline-block;
     font-size: var(--text-medium);
@@ -21,14 +20,14 @@ const Button = styled.div`
   }
 `;
 
-const Buttons = ({ btnLink, btnText, primary }) => {
+const LinkButton = ({ btnLink, btnText, primary }) => {
   return (
-    <Button primary={primary}>
-      <Link to={btnLink} className="button">
+    <LinkBtn primary={primary}>
+      <a className="button" href={btnLink} target="_blank" rel="noreferrer">
         {btnText}
-      </Link>
-    </Button>
+      </a>
+    </LinkBtn>
   );
 };
 
-export default Buttons;
+export default LinkButton;

@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Container } from '../../styles/CommonElements';
 import Buttons from '../Buttons/Buttons';
+import LinkBtn from '../Buttons/LinkButton';
 import { heroData } from './data';
 
 // Styles
@@ -134,7 +135,11 @@ const Hero = () => {
               </h3>
               <p className="body-text-2">{heroData.heroText}</p>
               <div className="button-wrapper">
-                <Buttons primary btnLink="/" btnText="Get Resume " />
+                <LinkBtn
+                  primary
+                  btnLink="https://drive.google.com/file/d/18WZjUWLuxfE6P4a_RIZysOJHQVPc7RBg/view?usp=sharing"
+                  btnText="Get Resume"
+                />
                 <Buttons btnLink="/projects" btnText="Projects " />
               </div>
             </HeroLeftContent>

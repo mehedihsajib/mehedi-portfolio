@@ -86,7 +86,8 @@ html {
   h1,h2,h3,h4,h5 {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat Bold'
+    font-family: 'Montserrat Bold';
+    font-weight: bold;
     
   }
   p {
@@ -158,6 +159,7 @@ html {
   .heading-3 {
     font-size: clamp(25px, 5vw, 35px);
     font-size: 3.5rem;
+    font-weight: bold;
 
     @media (max-width: 768px) {
       font-size: 2.8rem;

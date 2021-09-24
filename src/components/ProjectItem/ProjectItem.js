@@ -117,11 +117,11 @@ const ProjectItem = ({
           ))}
         </ul>
         <div className="see-on">
-          <a target={target} href={liveLink}>
-            {liveLinkIcon}
-          </a>
           <a target={target} href={gitHubLink}>
             {gitHubIcon}
+          </a>
+          <a target={target} href={liveLink}>
+            {liveLinkIcon}
           </a>
         </div>
       </div>

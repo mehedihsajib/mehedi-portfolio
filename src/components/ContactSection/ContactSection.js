@@ -42,6 +42,7 @@ const ContactSectionWrapper = styled.section`
 
     @media (max-width: 992px) {
       width: 100%;
+      margin-bottom: 2rem;
     }
     @media (max-width: 400px) {
       padding: 2rem;
@@ -101,7 +102,7 @@ const ContactSection = () => {
             </div>
             <ContactItem icon={<FaPhoneAlt />} text="+8801777 090833" />
 
-            <ContactItem icon={<FaEnvelopeOpen />} text="sajibmehedi7@gmail.com" />
+            <ContactItem icon={<FaEnvelopeOpen />} text="contact.mehedihsajib @gmail.com" />
             <ContactItem icon={<FaMapMarkerAlt />} text="Tangail, Dhaka, Bangladesh" />
             <div className="social-links">
               <SocialLinks icon={<FaFacebook />} link="https://www.facebook.com/mehedihsajib00/" />

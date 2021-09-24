@@ -87,10 +87,10 @@ const ProjectCarousel = () => {
                     name={project.name}
                     desc={project.desc}
                     liveLink={project.live}
-                    liveLinkIcon={<FaGithub />}
+                    liveLinkIcon={<FaGlobe />}
                     target={project.target}
                     gitHubLink={project.github}
-                    gitHubIcon={<FaGlobe />}
+                    gitHubIcon={<FaGithub />}
                     techs={project.tech}
                   />
                 </SwiperSlide>

@@ -16,6 +16,7 @@ const AboutWrapper = styled.div`
   }
 
   h2 {
+    font-size: 4rem;
     margin-bottom: 3rem;
     @media (max-width: 768px) {
       margin-bottom: 2rem;
@@ -67,15 +68,16 @@ const About = () => {
           <h2 className="heading-2">Internship</h2>
           <div className="internship-item">
             <Internship
+              link="https://themeforest.net/user/modinatheme"
               company="Madina Theme"
+              position="Frontend Web Developer(Remote)"
               date="July 2021 - Sept 2021"
-              desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, omnis? Earum obcaecati dignissimos minus. Quia fugiat distinctio quas dolorum blanditiis molestiae temporibus. Illum ab nobis, expedita quod, facere nisi odio dolore neque laborum voluptate quia eligendi autem voluptatum ullam fugiat pariatur. Sit commodi architecto aliquid rem ipsam repellat totam veniam."
+              desc="Modina Theme is a themeforest based company. They used to build theme for Themeforest.
+    
+              My job was to covert design to html/bootstrap. I've completed arround three projects.  More than 25 pages I've converted to Bootstrap which is fully responsive, pixel perfect, well commented and W3C validated code with Themeforest standard.
+              "
             />
-            <Internship
-              company="Madina Theme"
-              date="July 2021 - Sept 2021"
-              desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, omnis? Earum obcaecati dignissimos minus. Quia fugiat distinctio quas dolorum blanditiis molestiae temporibus. Illum ab nobis, expedita quod, facere nisi odio dolore neque laborum voluptate quia eligendi autem voluptatum ullam fugiat pariatur. Sit commodi architecto aliquid rem ipsam repellat totam veniam."
-            />
+            <Internship company="N/A" position="N/A" date="N/A" desc="N/A" />
           </div>
         </div>
       </Container>

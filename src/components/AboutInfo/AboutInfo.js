@@ -19,7 +19,9 @@ const AboutInfoWrapper = styled.div`
   h3 {
     width: 20rem;
     @media (max-width: 400px) {
-      margin-bottom: 1rem;
+      gap: 1rem;
+      margin-bottom: 2rem;
+      margin-right: 2rem;
     }
   }
 
@@ -41,6 +43,7 @@ const AboutInfoWrapper = styled.div`
 
     @media (max-width: 400px) {
       margin-bottom: 1rem;
+      margin-right: 1rem;
     }
   }
 `;
@@ -49,7 +52,7 @@ const AboutInfo = ({ title = 'Title', items = ['html', 'css', 'js'] }) => {
   return (
     <AboutInfoWrapper>
       <div className="info-item">
-        <h3 className="heading-4">{title}</h3>
+        <h3 className="body-text-3">{title}</h3>
         <div className="single-items">
           {items.map((item, index) => (
             <div className="single-item">{item}</div>

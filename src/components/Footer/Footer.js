@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaHeart, FaReact } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { Container } from '../../styles/CommonElements';
 
@@ -51,14 +52,9 @@ const Footer = () => {
           <span className="footer-icon">
             <FaReact />
             &nbsp; by &nbsp;
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://github.com/mehedihsajib/"
-              className="name"
-            >
+            <Link to="/" className="name">
               Mehedi H Sajib
-            </a>
+            </Link>
           </span>
         </p>
       </Container>

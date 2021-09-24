@@ -32,17 +32,17 @@ const Services = () => {
             <ServicesCard
               icon={<FaHtml5 />}
               title="Design to HTML"
-              desc="I'm more front end focused and love to work with Reactjs as well as pure HTML, CSS."
+              desc="I can convert any kinds of design to HTML/Bootstrap. Which will be fully responsive, pixel perfect, W3C Validated code with themeforest standard."
             />
             <ServicesCard
               icon={<FaReact />}
-              title="Design to React"
-              desc="I'm more front end focused and love to work with Reactjs as well as pure HTML, CSS."
+              title="React JS"
+              desc="My favourite JS library is React. I can convert any design to React. Moreover, I'm currenty trying to do all frontend stuff with React. It's really fun."
             />
             <ServicesCard
               icon={<FaCode />}
               title="Problem Solving"
-              desc="I'm more front end focused and love to work with Reactjs as well as pure HTML, CSS."
+              desc="I love to solve programming problem. Usually I solve problem with C++. I've solved +-200 programming problem in various online judge."
             />
           </ServicesCards>
         </ServicesContent>
