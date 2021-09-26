@@ -42,7 +42,7 @@ const ContactSectionWrapper = styled.section`
 
     @media (max-width: 992px) {
       width: 100%;
-      margin-bottom: 2rem;
+      margin-bottom: 3rem;
     }
     @media (max-width: 400px) {
       padding: 2rem;

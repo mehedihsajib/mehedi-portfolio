@@ -6,7 +6,7 @@ import { Container } from '../../styles/CommonElements';
 
 // Styles
 const FooterWrapper = styled.footer`
-  padding: 4rem 0rem;
+  padding: 3rem 0rem;
   background-color: var(--color-dark-deep);
   text-align: center;
 

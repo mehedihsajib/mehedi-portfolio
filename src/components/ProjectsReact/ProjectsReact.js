@@ -18,6 +18,10 @@ const ProjectsReactWrapper = styled.div`
     position: absolute;
     left: 0;
     top: 15px;
+
+    @media (max-width: 575px) {
+      font-size: 2rem;
+    }
   }
   .swiper-container {
     padding-top: 8rem;

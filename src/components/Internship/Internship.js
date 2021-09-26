@@ -3,9 +3,12 @@ import styled from 'styled-components';
 
 // Styles
 const IntershipWrapper = styled.div`
-  /* background-color: red; */
   width: 50%;
   padding-bottom: 3rem;
+
+  @media (max-width: 991px) {
+    width: 100%;
+  }
 
   h3 {
   }
