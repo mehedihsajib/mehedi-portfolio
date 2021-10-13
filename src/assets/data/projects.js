@@ -1,11 +1,25 @@
 import { v4 as uuidv4 } from 'uuid';
 import ProjectBuildPro from '../images/project-buildPro.png';
+import projectHisab from '../images/project-hisab.png';
 import projectLogio from '../images/project-logio.png';
 import projectPizza from '../images/project-pizza.png';
 import projectQuoteGen from '../images/project-quote-generator.png';
 import projectWeatherApp from '../images/project-weatherApp.png';
 
 const projects = [
+  {
+    id: uuidv4(),
+    name: 'Hisab',
+    desc:
+      'Hisab is an admin dashboard where you can see user data, sales and product data with a chart.Also you can create new users and delete users and so on.',
+    thumb: projectHisab,
+    live: 'https://react-project-hisab.netlify.app/',
+    github: 'https://github.com/mehedihsajib/Hisab-admin-dashboard',
+    target: '_black',
+    alt: 'project',
+    tech: ['sass', 'mui', 'reactjs', 'chartjs'],
+  },
+
   {
     id: uuidv4(),
     name: 'Logio',

@@ -16,9 +16,9 @@ const Projects = () => {
     <ProjectWrapper className="section-padding">
       <Container>
         <SectionHeading topHeading="Projects I've done so far" mainHeading="Projects" />
+        <ProjectsReact />
         <ProjectsHtml />
         <ProjectsJavascript />
-        <ProjectsReact />
       </Container>
     </ProjectWrapper>
   );

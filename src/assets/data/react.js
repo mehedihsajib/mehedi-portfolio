@@ -1,9 +1,36 @@
 import { v4 as uuidv4 } from 'uuid';
+import projectCorona from '../images/project-corona.png';
+import projectHisab from '../images/project-hisab.png';
 import projectPizza from '../images/project-pizza.png';
 import projectQuoteGen from '../images/project-quote-generator.png';
 import projectWeatherApp from '../images/project-weatherApp.png';
 
 const projectsReact = [
+  {
+    id: uuidv4(),
+    name: 'Hisab',
+    desc:
+      'Hisab is an admin dashboard where you can see user data, sales and product data with a chart.Also you can create new users and delete users and so on.',
+    thumb: projectHisab,
+    live: 'https://react-project-hisab.netlify.app/',
+    github: 'https://github.com/mehedihsajib/Hisab-admin-dashboard',
+    target: '_black',
+    alt: 'project',
+    tech: ['sass', 'mui', 'reactjs', 'chartjs'],
+  },
+  {
+    id: uuidv4(),
+    name: 'Corona',
+    desc:
+      'It is a COVID-19 Website that I converted to React Component from HTML Template for a local client. It has so many features like sticky nav, hamburger menu, carousel, accordion and so on.',
+    thumb: projectCorona,
+    live: 'https://react-template-corona.netlify.app/',
+    github: 'https://github.com/mehedihsajib/react-template-Corona',
+    target: '_black',
+    alt: 'project',
+    tech: ['css', 'bootstrap', 'react', 'react router'],
+  },
+
   {
     id: uuidv4(),
     name: 'Pizza',

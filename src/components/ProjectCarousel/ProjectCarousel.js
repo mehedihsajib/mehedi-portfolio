@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
 import projects from '../../assets/data/projects';
 import { Container } from '../../styles/CommonElements';
+import Buttons from '../Buttons/Buttons';
 import ProjectItem from '../ProjectItem/ProjectItem';
 import SectionHeading from '../SectionHeading/SectionHeading';
 // install Swiper modules
@@ -17,6 +18,10 @@ const ProjectCarouselWrapper = styled.section`
   text-align: center;
   position: relative;
   z-index: 9;
+
+  .btn-wrapper {
+    text-align: right;
+  }
 
   .swiper-container {
     padding-top: 8rem;
@@ -97,6 +102,9 @@ const ProjectCarousel = () => {
               );
             })}
           </Swiper>
+        </div>
+        <div className="btn-wrapper">
+          <Buttons btnLink="/projects" btnText="See All Projects" primary />
         </div>
       </Container>
     </ProjectCarouselWrapper>
