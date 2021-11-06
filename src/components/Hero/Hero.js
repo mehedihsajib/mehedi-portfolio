@@ -137,7 +137,7 @@ const Hero = () => {
               <div className="button-wrapper">
                 <LinkBtn
                   primary
-                  btnLink="https://drive.google.com/file/d/19A7s7OKrblcDYi124E8zBzBDHttBC870/view?usp=sharing"
+                  btnLink="https://drive.google.com/file/d/1pPU_VOUD9MeRzCCg5FCHyJaCvkKhzTfz/view?usp=sharing"
                   btnText="Get Resume"
                 />
                 <Buttons btnLink="/projects" btnText="Projects " />
