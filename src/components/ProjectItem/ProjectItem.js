@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaCheckCircle } from 'react-icons/fa';
 import styled from 'styled-components';
 
 // Styles
@@ -18,11 +19,21 @@ const CardWrapper = styled.div`
     font-size: 12px;
     font-weight: 600;
     color: green;
+    display: flex;
+    align-items: center;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: -55px;
+    left: -63px;
     transform: rotate(-90deg);
+
+    .icon {
+      margin-right: 5px;
+    }
+
+    svg {
+      fill: green;
+    }
   }
 
   .card-thumb {
@@ -120,9 +131,14 @@ const ProjectItem = ({
 }) => {
   return (
     <CardWrapper>
+      <p className="status">
+        <span className="icon">
+          {status === 'Approved On Themeforest' ? <FaCheckCircle /> : null}
+        </span>
+        {status}
+      </p>
       <div className="card-thumb">
         <img src={thumb} alt={alt} className="card-img" />
-        <p className="status">{status}</p>
       </div>
       <div className="card-content">
         <h3 className="heading-4">{name}</h3>
