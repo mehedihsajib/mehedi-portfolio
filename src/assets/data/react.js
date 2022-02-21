@@ -4,8 +4,22 @@ import projectHisab from '../images/project-hisab.png';
 import projectPizza from '../images/project-pizza.png';
 import projectQuoteGen from '../images/project-quote-generator.png';
 import projectWeatherApp from '../images/project-weatherApp.png';
+import projectDustrix from '../images/react-project-dustrix.jpg';
 
 const projectsReact = [
+  {
+    id: uuidv4(),
+    name: 'Dustrix - React Template',
+    desc:
+      'Dustrix is a Consturction web template that I build for my a local client. He own a themeforest based small company. This template is Approved on Themeforest.',
+    thumb: projectDustrix,
+    live: 'https://themeforest.net/item/dustrix-construction-industry-react-template/34856534',
+    github: 'https://facebook.com/mehedihsajib00',
+    target: '_black',
+    alt: 'project',
+    tech: ['sass', 'bootstrap', 'reactjs'],
+    status: 'Approved On Themeforest',
+  },
   {
     id: uuidv4(),
     name: 'Hisab',
@@ -35,7 +49,7 @@ const projectsReact = [
     id: uuidv4(),
     name: 'Pizza',
     desc:
-      'Pizza is a simple landing page which I converted to React from from a design. I took the design from a well known youtuber named Brian. This project has simple ui and side navbar also it is fully responsive',
+      'Pizza is a simple landing page which I converted to React from a design. I took the design from a well known youtuber named Brian. This project has simple ui and side navbar also it is fully responsive',
     thumb: projectPizza,
     live: 'https://mehedi-react-pizza.netlify.app/',
     github: 'https://github.com/mehedihsajib/react-pizza-website',

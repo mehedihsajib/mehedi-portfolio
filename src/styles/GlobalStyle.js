@@ -172,10 +172,10 @@ html {
 
   .heading-4 {
     font-size: clamp(20px, 2vw, 30px);
-    font-size: 3rem;
+    font-size: 2rem;
 
     @media (max-width: 768px) {
-      font-size: 2.5rem;
+      font-size: 1.8rem;
     }
 
     @media (max-width: 575px) {

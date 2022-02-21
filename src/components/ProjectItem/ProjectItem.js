@@ -4,7 +4,7 @@ import styled from 'styled-components';
 // Styles
 const CardWrapper = styled.div`
   width: 95%;
-  height: 100%;
+  min-height: 100%;
   padding: 3rem;
   margin: 0 auto;
   margin-bottom: 2rem;
@@ -12,6 +12,18 @@ const CardWrapper = styled.div`
   border-radius: 10px;
   background: #1b1f23;
   box-shadow: var(--soft-shadow-1);
+  position: relative;
+
+  .status {
+    font-size: 12px;
+    font-weight: 600;
+    color: green;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -55px;
+    transform: rotate(-90deg);
+  }
 
   .card-thumb {
     height: 20rem;
@@ -62,6 +74,7 @@ const CardWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     a {
       font-size: 2rem;
       cursor: pointer;
@@ -74,6 +87,7 @@ const CardWrapper = styled.div`
       justify-content: center;
       background: #1b1f23;
       box-shadow: var(--soft-shadow-1);
+
       &:hover {
         background: linear-gradient(145deg, #181c20, #1d2125);
         box-shadow: (--soft-shadow-2);
@@ -101,12 +115,14 @@ const ProjectItem = ({
   desc,
   thumb,
   alt,
+  status,
   techs = ['html', 'css', 'js', 'bootstrap'],
 }) => {
   return (
     <CardWrapper>
       <div className="card-thumb">
         <img src={thumb} alt={alt} className="card-img" />
+        <p className="status">{status}</p>
       </div>
       <div className="card-content">
         <h3 className="heading-4">{name}</h3>

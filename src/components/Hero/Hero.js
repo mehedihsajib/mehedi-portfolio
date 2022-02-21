@@ -10,7 +10,7 @@ const HeroWrapper = styled.section``;
 
 const HeroContent = styled.div`
   width: 100%;
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -137,7 +137,7 @@ const Hero = () => {
               <div className="button-wrapper">
                 <LinkBtn
                   primary
-                  btnLink="https://drive.google.com/file/d/1pPU_VOUD9MeRzCCg5FCHyJaCvkKhzTfz/view?usp=sharing"
+                  btnLink="https://drive.google.com/file/d/1l7dUfIV5q-c_ltnaAuWh450rPk_wBgpE/view?usp=sharing"
                   btnText="Get Resume"
                 />
                 <Buttons btnLink="/projects" btnText="Projects " />

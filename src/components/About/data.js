@@ -1,5 +1,5 @@
 /* eslint-disable import/prefer-default-export */
-import aboutImg from '../../assets/images/profile.png';
+import aboutImg from '../../assets/images/profile.webp';
 
 export const aboutData = {
   aboutImg: `${aboutImg}`,

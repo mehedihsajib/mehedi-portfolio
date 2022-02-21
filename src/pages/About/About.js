@@ -59,8 +59,16 @@ const About = () => {
           <h2 className="heading-2">Skills</h2>
           <AboutInfo title="Language :" items={['Javascript', 'C++', 'Python']} />
           <AboutInfo
-            title="Web :"
-            items={['HTML', 'CSS', 'JS', 'Bootstrap', 'SASS', 'React', 'jQuery', 'Wordpress']}
+            title="Web Tech:"
+            items={[
+              'SASS',
+              'Bootstrap',
+              'jQuery',
+              'ReactJS',
+              'NextJs',
+              'Styled Components',
+              'Elementor',
+            ]}
           />
           <AboutInfo title="Tools :" items={['Git/Github', 'Photoshop', 'Adobe XD', 'Figma']} />
         </div>
@@ -70,14 +78,19 @@ const About = () => {
             <Internship
               link="https://themeforest.net/user/modinatheme"
               company="Madina Theme"
-              position="Frontend Web Developer(Remote)"
+              position="Frontend Developer(Remote)"
               date="July 2021 - Sept 2021"
               desc="Modina Theme is a themeforest based company. They used to build theme for Themeforest.
-    
               My job was to covert design to html/bootstrap. I've completed arround three projects.  More than 25 pages I've converted to Bootstrap which is fully responsive, pixel perfect, well commented and W3C validated code with Themeforest standard.
               "
             />
-            <Internship company="N/A" position="N/A" date="N/A" desc="N/A" />
+            <Internship
+              link="https://envyweb.studio/"
+              company="Envyweb Studio"
+              position="Frontend Developer"
+              date="Dec 2021 - Feb 2022"
+              desc="Envyweb is working with international clients since 2017. They used to sell wordpress based services. Recenty they start building product like wordpress theme and plugin. My role was to build frontend of the product."
+            />
           </div>
         </div>
       </Container>

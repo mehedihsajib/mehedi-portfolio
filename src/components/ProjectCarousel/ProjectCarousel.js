@@ -97,6 +97,7 @@ const ProjectCarousel = () => {
                     gitHubLink={project.github}
                     gitHubIcon={<FaGithub />}
                     techs={project.tech}
+                    status={project.status}
                   />
                 </SwiperSlide>
               );

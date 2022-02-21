@@ -1,10 +1,24 @@
 import { v4 as uuidv4 } from 'uuid';
+import projectCredom from '../images/html-project-credom.png';
 import projectAppri from '../images/project-appri.png';
 import ProjectBuildPro from '../images/project-buildPro.png';
 import projectLogio from '../images/project-logio.png';
 import projectTrillo from '../images/projectTrillo.png';
 
 const htmlProjects = [
+  {
+    id: uuidv4(),
+    name: 'Credom - HTML Template',
+    desc:
+      'This is one of my Approved item on Themeforest that I build for on of my local client. Credom is a contruction web template.',
+    thumb: projectCredom,
+    live: 'https://themeforest.net/item/credom-construction-html-template/35522468',
+    github: 'https://facebook.com/mehedihsajib00',
+    target: '_black',
+    alt: 'project',
+    tech: ['sass', 'bootstrap', 'jquery'],
+    status: 'Approved On Themeforest',
+  },
   {
     id: uuidv4(),
     name: 'Logio',

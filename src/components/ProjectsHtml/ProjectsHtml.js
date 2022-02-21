@@ -97,6 +97,7 @@ const ProjectsHtml = () => {
                   gitHubLink={htmlProject.github}
                   gitHubIcon={<FaGithub />}
                   techs={htmlProject.tech}
+                  status={htmlProject.status}
                 />
               </SwiperSlide>
             );

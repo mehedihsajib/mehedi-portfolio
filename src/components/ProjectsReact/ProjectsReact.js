@@ -97,6 +97,7 @@ const ProjectsReact = () => {
                   gitHubLink={reactProject.github}
                   gitHubIcon={<FaGithub />}
                   techs={reactProject.tech}
+                  status={reactProject.status}
                 />
               </SwiperSlide>
             );

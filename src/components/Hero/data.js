@@ -1,5 +1,5 @@
 /* eslint-disable import/prefer-default-export */
-import heroImg from '../../assets/images/heroImg.png';
+import heroImg from '../../assets/images/heroImg.webp';
 
 export const heroData = {
   topHeading: "Hi, I'm",

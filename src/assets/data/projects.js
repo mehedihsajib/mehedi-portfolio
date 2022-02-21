@@ -1,12 +1,40 @@
 import { v4 as uuidv4 } from 'uuid';
+import projectCredom from '../images/html-project-credom.png';
 import ProjectBuildPro from '../images/project-buildPro.png';
 import projectHisab from '../images/project-hisab.png';
 import projectLogio from '../images/project-logio.png';
 import projectPizza from '../images/project-pizza.png';
 import projectQuoteGen from '../images/project-quote-generator.png';
 import projectWeatherApp from '../images/project-weatherApp.png';
+import projectDustrix from '../images/react-project-dustrix.jpg';
 
 const projects = [
+  {
+    id: uuidv4(),
+    name: 'Credom - HTML Template',
+    desc:
+      'This is one of my Approved item on Themeforest that I build for my a local client. Credom is a contruction web template.',
+    thumb: projectCredom,
+    live: 'https://themeforest.net/item/credom-construction-html-template/35522468',
+    github: 'https://facebook.com/mehedihsajib00',
+    target: '_black',
+    alt: 'project',
+    tech: ['sass', 'bootstrap', 'jquery'],
+    status: 'Approved On Themeforest',
+  },
+  {
+    id: uuidv4(),
+    name: 'Dustrix - React Template',
+    desc:
+      'Dustrix is a Consturction web template that I build for my a local client. He own a themeforest based small company. This template is Approved on Themeforest.',
+    thumb: projectDustrix,
+    live: 'https://themeforest.net/item/dustrix-construction-industry-react-template/34856534',
+    github: 'https://facebook.com/mehedihsajib00',
+    target: '_black',
+    alt: 'project',
+    tech: ['sass', 'bootstrap', 'reactjs'],
+    status: 'Approved On Themeforest',
+  },
   {
     id: uuidv4(),
     name: 'Hisab',
