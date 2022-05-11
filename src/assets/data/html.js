@@ -3,9 +3,23 @@ import projectCredom from '../images/html-project-credom.png';
 import projectAppri from '../images/project-appri.png';
 import ProjectBuildPro from '../images/project-buildPro.png';
 import projectLogio from '../images/project-logio.png';
+import projectNewlog from '../images/project-newlog.avif';
 import projectTrillo from '../images/projectTrillo.png';
 
 const htmlProjects = [
+  {
+    id: uuidv4(),
+    name: 'Newlog - HTML Template',
+    desc:
+      'This is one of my Approved item on Themeforest that I build for my a local client. Newlog is a Blog & Magazine template.',
+    thumb: projectNewlog,
+    live: 'https://themeforest.net/item/newlog-blog-magazine-html-template/36834217',
+    github: 'https://facebook.com/mehedihsajib00',
+    target: '_black',
+    alt: 'project',
+    tech: ['sass', 'bootstrap', 'jquery'],
+    status: 'Approved On Themeforest',
+  },
   {
     id: uuidv4(),
     name: 'Credom - HTML Template',

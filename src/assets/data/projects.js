@@ -1,14 +1,42 @@
 import { v4 as uuidv4 } from 'uuid';
 import projectCredom from '../images/html-project-credom.png';
 import ProjectBuildPro from '../images/project-buildPro.png';
+import projectCredomReact from '../images/project-credom.avif';
 import projectHisab from '../images/project-hisab.png';
 import projectLogio from '../images/project-logio.png';
+import projectNewlog from '../images/project-newlog.avif';
 import projectPizza from '../images/project-pizza.png';
 import projectQuoteGen from '../images/project-quote-generator.png';
 import projectWeatherApp from '../images/project-weatherApp.png';
 import projectDustrix from '../images/react-project-dustrix.jpg';
 
 const projects = [
+  {
+    id: uuidv4(),
+    name: 'Credom - React Template',
+    desc:
+      'Credom is a Consturction web template that I build for my a local client. This template is Approved on Themeforest.',
+    thumb: projectCredomReact,
+    live: 'https://themeforest.net/item/credom-construction-react-template/37461374',
+    github: 'https://facebook.com/mehedihsajib00',
+    target: '_black',
+    alt: 'project',
+    tech: ['sass', 'bootstrap', 'reactjs'],
+    status: 'Approved On Themeforest',
+  },
+  {
+    id: uuidv4(),
+    name: 'Newlog - HTML Template',
+    desc:
+      'This is one of my Approved item on Themeforest that I build for my a local client. Newlog is a Blog & Magazine template.',
+    thumb: projectNewlog,
+    live: 'https://themeforest.net/item/newlog-blog-magazine-html-template/36834217',
+    github: 'https://facebook.com/mehedihsajib00',
+    target: '_black',
+    alt: 'project',
+    tech: ['sass', 'bootstrap', 'jquery'],
+    status: 'Approved On Themeforest',
+  },
   {
     id: uuidv4(),
     name: 'Credom - HTML Template',

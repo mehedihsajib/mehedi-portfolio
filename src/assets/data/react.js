@@ -1,5 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 import projectCorona from '../images/project-corona.png';
+import projectCredomReact from '../images/project-credom.avif';
 import projectHisab from '../images/project-hisab.png';
 import projectPizza from '../images/project-pizza.png';
 import projectQuoteGen from '../images/project-quote-generator.png';
@@ -7,6 +8,19 @@ import projectWeatherApp from '../images/project-weatherApp.png';
 import projectDustrix from '../images/react-project-dustrix.jpg';
 
 const projectsReact = [
+  {
+    id: uuidv4(),
+    name: 'Credom - React Template',
+    desc:
+      'Credom is a Consturction web template that I build for my a local client. This template is Approved on Themeforest.',
+    thumb: projectCredomReact,
+    live: 'https://themeforest.net/item/credom-construction-react-template/37461374',
+    github: 'https://facebook.com/mehedihsajib00',
+    target: '_black',
+    alt: 'project',
+    tech: ['sass', 'bootstrap', 'reactjs'],
+    status: 'Approved On Themeforest',
+  },
   {
     id: uuidv4(),
     name: 'Dustrix - React Template',

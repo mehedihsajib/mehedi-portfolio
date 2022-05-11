@@ -5,7 +5,8 @@ import styled from 'styled-components';
 // Styles
 const CardWrapper = styled.div`
   width: 95%;
-  min-height: 100%;
+  min-height: 550px;
+  height: 100%;
   padding: 3rem;
   margin: 0 auto;
   margin-bottom: 2rem;
